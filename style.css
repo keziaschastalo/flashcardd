@@ -9,3 +9,8 @@ footer{
     width: 100%;
     position: fixed;
 }
+footer p { 
+    text-align: center;
+    font-size: 0.6rem;
+
+}
