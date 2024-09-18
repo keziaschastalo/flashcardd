@@ -1,2 +1,0 @@
-# flashcardd
-flashcard
