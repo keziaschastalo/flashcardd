@@ -1,13 +1,41 @@
-body{
-    background-color: bisque;
+
+:root{
 
 }
-footer{
-    background-color: black;
-    color: white;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
+
+body{
+    background-color: bisque;
+      font-family: bait jamjuree;
+}
+
+#container{
+  display: flex;
+}
+.cartao{
+     margin: 1rem 1rem;
+     height: 20rem
+     flex-grow: 1
+     flex-basis: calc(33% - 6rem);
+}
+ .cartao__conteudo{
+    text-align: center;
+    background-color:var(--card-front-color);
+    /*background-color:aquamarine;*/
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out; 
+ }
+ .cartao__conteudo 
+  h3{ background-color: var(--text-color);
+    border: 1px solid var(--text-color); 
+    text-align: left; 
+    padding: 0.5rem; 
+    position: absolute;
+    margin: 0.6rem;
+    border-radius:0.6rem;
+    font-size: var(--text-color);
+    border: 1px solid var(--text-color);
+
 }
 footer p { 
     text-align: center;
